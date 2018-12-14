@@ -1,0 +1,63 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1544753629967" stop="1544753684119">
+  <description>
+目标：PO模式scripts脚本实现
+    操作：
+        1. 新建测试模块(test_页面对象.py)
+        2. 类名(使用大驼峰去掉下划线)
+        3. 不用过脑(def setup_class teardown_class test_login)编写三个方法
+            setup_class
+                1. 实例化 page页面对象
+            teardown_class
+                1. 关闭 driver对象
+            test_login()
+                1.根据操作步骤调用page对象内方法
+                2. 断言
+                3. 截图
+</description>
+  <name>test_login</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1544753629967" status="passed" stop="1544753663773">
+      <name>TestLogin.test_login[19098081000-123456]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="thread" value="2676-MainThread"/>
+        <label name="host" value="Yct201810072118"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1544753646926" status="passed" stop="1544753663773">
+          <name>登录操作</name>
+          <title>登录操作</title>
+          <attachments>
+            <attachment source="f2e77cce-794e-4c3d-b3ca-49fb89d5280c-attachment.txt" title="登录操作" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1544753663778" status="passed" stop="1544753684119">
+      <name>TestLogin.test_login[15088081000-123456]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="thread" value="2676-MainThread"/>
+        <label name="host" value="Yct201810072118"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1544753663782" status="passed" stop="1544753684118">
+          <name>登录操作</name>
+          <title>登录操作</title>
+          <attachments>
+            <attachment source="d12cf75c-b861-44c5-bfd6-ed3970b8c888-attachment.txt" title="登录操作" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

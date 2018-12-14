@@ -1,0 +1,60 @@
+{
+  "uid" : "1fffb76b7aabbc06",
+  "name" : "TestLogin.test_login[13600000000-12345654]",
+  "fullName" : "test_login.TestLogin.test_login[13600000000-12345654]",
+  "historyId" : "6d846558b4f64687800afe9cdd009730",
+  "time" : {
+    "start" : 1544699452528,
+    "stop" : 1544699470833,
+    "duration" : 18305
+  },
+  "description" : "\n目标：PO模式scripts脚本实现\n    操作：\n        1. 新建测试模块(test_页面对象.py)\n        2. 类名(使用大驼峰去掉下划线)\n        3. 不用过脑(def setup_class teardown_class test_login)编写三个方法\n            setup_class\n                1. 实例化 page页面对象\n            teardown_class\n                1. 关闭 driver对象\n            test_login()\n                1.根据操作步骤调用page对象内方法\n                2. 断言\n                3. 截图\n",
+  "descriptionHtml" : "<p>目标：PO模式scripts脚本实现\n操作：\n1. 新建测试模块(test_页面对象.py)\n2. 类名(使用大驼峰去掉下划线)\n3. 不用过脑(def setup_class teardown_class test_login)编写三个方法\nsetup_class\n1. 实例化 page页面对象\nteardown_class\n1. 关闭 driver对象\ntest_login()\n1.根据操作步骤调用page对象内方法\n2. 断言\n3. 截图</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "Yct201810072118"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "4596-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "testClass",
+    "value" : "test_login"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestLogin.test_login[13600000000-12345654]"
+  }, {
+    "name" : "package",
+    "value" : "test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1fffb76b7aabbc06.json",
+  "parameterValues" : [ ]
+}

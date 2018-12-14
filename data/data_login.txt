@@ -1,0 +1,6 @@
+ak-login-txt-001:
+    username: "15088081000"
+    password: "123456"
+ak-login-txt-002:
+    username: "19098081000"
+    password: "123456"
