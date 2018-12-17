@@ -8,6 +8,7 @@
             3. 点击方法封装
 
 """
+from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 
 
@@ -27,3 +28,10 @@ class Base():
 
     def base_click_element(self,loc):
         self.base_find_element(loc).click()
+
+    #获取toast消息方法
+    def base_get_toast(self,msg):
+        #组装loc
+        loc=By.XPATH,"//*[contain(@text,'"+msg+"')]"
+        #查找元素方法
+        return self.base_find_element(loc,timeout=3,poll=0.1).text

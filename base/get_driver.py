@@ -6,6 +6,8 @@ def get_driver():
     desired_caps['platformName'] = 'Android'
     desired_caps['platformVersion'] = '5.1'
     desired_caps['deviceName'] = '192.168.27.101:5555'
+    # 指定appium库
+    desired_caps['automationName']='uiautomator2'
     # app信息com.vcooline.aike包名
     desired_caps['appPackage'] = 'com.vcooline.aike'
     desired_caps['appActivity'] = '.umanager.LoginActivity'

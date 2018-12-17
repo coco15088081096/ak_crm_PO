@@ -52,7 +52,8 @@ class TestLogin():
     @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)
     @allure.step("登录操作")
     @pytest.mark.parametrize("username,password", get_data())
-    def test_login(self, username, password):
+    @pytest.mark.parametrize("msg",["号不存在"])
+    def test_login(self, username, password,msg):
         # 输入用户名
         allure.attach("登录操作","")
         self.login.page_input_username(username)
@@ -60,3 +61,5 @@ class TestLogin():
         self.login.page_input_password(password)
         # 点击登录
         self.login.page_submit()
+        assert msg in self.test_login.base.base_get_toast(msg)
+
